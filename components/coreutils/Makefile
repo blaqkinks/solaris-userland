@@ -97,7 +97,7 @@ COMPONENT_POST_TEST_ACTION += \
 
 # Get the binaries to test from their installed locations.
 COMPONENT_SYSTEM_TEST_ENV +=	PATH=/usr/gnu/bin:/usr/bin
-COMPONENT_SYSTEM_TEST_DIR =	$(@D)/tests
+COMPONENT_SYSTEM_TEST_DIR =	$(@D)/testdir
 
 REQUIRED_PACKAGES += library/gmp
 REQUIRED_PACKAGES += terminal/screen
